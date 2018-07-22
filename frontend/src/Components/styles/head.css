@@ -1,0 +1,68 @@
+.header {
+    background-color: brown;
+    height: 60px;
+  
+    color: white;
+  }
+  
+  .arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 18px solid green;
+  }
+  .mycol{
+    background: #2F4F4F;
+    color:white;
+  }
+
+
+  
+ 
+  small {
+  display: block;
+  line-height: 1.428571429;
+  color: #999;
+  }
+  .menu {
+    background-color:brown;
+    height:20px;
+    padding: 10px;
+    color:white;
+    position: relative;
+    float: right;
+    font-size: 26px;
+    border-color: white;
+    border-style: groove;
+    text-align: center;
+  }
+  .title{
+    position: relative;
+    font-size: 40px;
+  }
+  /* input[type=text] {
+    width: 15%;
+    height:30px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: brown;
+    font-size: 17px;
+    color:brown;
+} */
+
+.labels{
+  color: brown;
+  font-size: 20px;
+  padding:12px 12px;
+  box-sizing: border-box;
+}
+
+.buttons{
+  background-color: brown;
+  color: white;
+  width:120px;
+  height:35px;
+  font-size: 20px;
+
+}
