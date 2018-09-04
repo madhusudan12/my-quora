@@ -15,6 +15,7 @@ class ResultsPagination(PageNumberPagination):
 
 class UserProfileView(ListAPIView):
     serializer_class = ProfileSerializer
+    authentication_classes = []
     permission_classes = [AllowAny]
     # lookup_field = 'pk'
     # queryset = Author.objects.all()
