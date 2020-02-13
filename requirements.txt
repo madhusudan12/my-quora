@@ -45,4 +45,4 @@ urllib3==1.22
 virtualenv==16.0.0
 virtualenvwrapper-win==1.2.5
 wcwidth==0.1.7
-Werkzeug==0.14.1
+Werkzeug==0.15.3
